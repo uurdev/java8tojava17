@@ -1,3 +1,4 @@
+import instanceofs.User;
 import localvariable.Java10LocalVariable;
 import localvariable.Java8LocalVariable;
 import records.Java14Employee;
@@ -5,8 +6,38 @@ import records.Java8Employee;
 
 public class Main {
     public static void main(String[] args) {
-        topicVariable();
-        topicRecords();
+        //topicVariable();
+        //topicRecords();
+        //topicInstanceOf();
+        topicUseFullNullPointerException();
+    }
+
+    private static void topicUseFullNullPointerException() {
+        User user = new User();
+        System.out.println(user.getUsername());
+        user=null;
+        System.out.println(user.getUsername());
+    }
+
+    private static void topicInstanceOf() {
+        User user=new User();
+        user.setUsername("uur");
+        user.setPwd("dev");
+        java8InstanceOfExample(user);
+        java16InstanceOfExample(user);
+    }
+
+    private static void java16InstanceOfExample(Object obj) {
+        if(obj instanceof User user){
+            System.out.println(user.getUsername());
+        }
+    }
+
+    static void java8InstanceOfExample(Object obj){
+        if(obj instanceof User){
+            User user = (User) obj;
+            System.out.println(user.getUsername());
+        }
     }
 
     static void topicRecords(){
