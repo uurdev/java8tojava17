@@ -2,3 +2,13 @@
 java8to17/.idea/modules.xml
 java8to17/java8to17.iml
 java8to17/.idea/misc.xml
+java8to17/.idea
+out/production/java8tojava17/localvariable/Java10LocalVariable.class
+out/production/java8tojava17/localvariable/Java8LocalVariable.class
+out/production/java8tojava17/Main.class
+out/production/java8tojava17/records/Java14Employee.class
+out/production/java8tojava17/records/Java8Employee.class
+out/production/java8tojava17/switchexpression/Java14SwitchExample.class
+out/production/java8tojava17/switchexpression/Java8SwitchExample.class
+out/production/java8tojava17/textblocks/Java15TextBlocks.class
+out/production/java8tojava17/textblocks/Java8TextBlocks.class
