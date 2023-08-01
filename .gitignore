@@ -13,3 +13,4 @@ out/production/java8tojava17/switchexpression/Java8SwitchExample.class
 out/production/java8tojava17/textblocks/Java15TextBlocks.class
 out/production/java8tojava17/textblocks/Java8TextBlocks.class
 *.pb
+*.class
