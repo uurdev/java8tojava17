@@ -1,23 +1,16 @@
-import instanceofs.User;
-import java9.OperationMethod;
-import localvariable.Java10LocalVariable;
-import localvariable.Java8LocalVariable;
-import records.Java14Employee;
-import records.Java8Employee;
+import java10.Java10LocalVariable;
+import java10.Java8LocalVariable;
+import java14.Java14Employee;
+import java14.Java8Employee;
+import java16.User;
 
 public class Main {
     public static void main(String[] args) {
-        topicJava9();
         //topicVariable();
         //topicRecords();
         //topicInstanceOf();
         topicUseFullNullPointerException();
 
-    }
-
-    private static void topicJava9() {
-        OperationMethod operationMethod = new OperationMethod();
-        operationMethod.doSomething();
     }
 
     private static void topicUseFullNullPointerException() {

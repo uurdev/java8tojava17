@@ -5,7 +5,7 @@ package java11;
  * @since 1.08.2023
  */
 public class StringStripExample {
-    public void stripExample() {
+    public static void main(String[] args) {
         String str
                 = "        Smartera Java Versiyonlar arası yenilikler sunumu    !   ";
 

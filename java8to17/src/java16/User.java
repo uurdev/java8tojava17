@@ -1,4 +1,4 @@
-package instanceofs;
+package java16;
 
 public class User {
     private String username;

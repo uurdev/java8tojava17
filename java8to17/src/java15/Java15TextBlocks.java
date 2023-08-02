@@ -1,4 +1,4 @@
-package textblocks;
+package java15;
 
 public class Java15TextBlocks {
     public void textBlockExample(){

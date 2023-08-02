@@ -1,4 +1,4 @@
-package switchexpression;
+package java15;
 
 public class Java8SwitchExample {
 
