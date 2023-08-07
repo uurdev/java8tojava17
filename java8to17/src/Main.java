@@ -1,16 +1,23 @@
 import java10.Java10LocalVariable;
 import java10.Java8LocalVariable;
-import java14.Java14Employee;
+import java14.Java14RecordEmployee;
 import java14.Java8Employee;
 import java16.User;
+import java17.Child1;
 
 public class Main {
     public static void main(String[] args) {
         //topicVariable();
         //topicRecords();
         //topicInstanceOf();
-        topicUseFullNullPointerException();
+        //topicUseFullNullPointerException();
+        sealedExample();
 
+    }
+
+    private static void sealedExample() {
+        Child1 child1 = new Child1("test");
+        child1.callMethod();
     }
 
     private static void topicUseFullNullPointerException() {
@@ -45,7 +52,7 @@ public class Main {
         var java8Employee = new Java8Employee("ugur", "ciftci");
         System.out.println(java8Employee.getLastName());
 
-        var java14Employee = new Java14Employee("ugur", "ciftci");
+        var java14Employee = new Java14RecordEmployee("ugur", "ciftci");
         System.out.println(java14Employee.name());
     }
 
