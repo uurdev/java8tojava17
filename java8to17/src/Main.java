@@ -7,10 +7,10 @@ import java17.Child1;
 
 public class Main {
     public static void main(String[] args) {
-        //topicVariable();
-        //topicRecords();
-        //topicInstanceOf();
-        //topicUseFullNullPointerException();
+        topicVariableJava8_10();
+        topicRecordsJava14();
+        topicInstanceOfJava16();
+        topicUseFullNullPointerException();
         sealedExample();
 
     }
@@ -27,7 +27,7 @@ public class Main {
         System.out.println(user.getUsername());
     }
 
-    private static void topicInstanceOf() {
+    private static void topicInstanceOfJava16() {
         User user = new User();
         user.setUsername("uur");
         user.setPwd("dev");
@@ -48,7 +48,7 @@ public class Main {
         }
     }
 
-    static void topicRecords() {
+    static void topicRecordsJava14() {
         var java8Employee = new Java8Employee("ugur", "ciftci");
         System.out.println(java8Employee.getLastName());
 
@@ -56,7 +56,7 @@ public class Main {
         System.out.println(java14Employee.name());
     }
 
-    static void topicVariable() {
+    static void topicVariableJava8_10() {
         try {
             final var java8Local = new Java8LocalVariable();
             java8Local.connectGoogle();
