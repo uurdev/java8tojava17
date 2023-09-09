@@ -10,7 +10,7 @@ public class StringTransformExample {
      */
 
     public static void main(String[] args) {
-        var value = "  100";
+        var value = "    100";
         System.out.println(value);
         System.out.println(value.getClass());
         var myInt = value.strip().transform(Integer::parseInt);

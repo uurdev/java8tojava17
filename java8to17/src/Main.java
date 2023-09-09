@@ -7,11 +7,11 @@ import java17.Child1;
 
 public class Main {
     public static void main(String[] args) {
-        topicVariableJava8_10();
+//        topicVariableJava8_10();
         topicRecordsJava14();
-        topicInstanceOfJava16();
-        topicUseFullNullPointerException();
-        sealedExample();
+//        topicInstanceOfJava16();
+//        topicUseFullNullPointerException();
+//        sealedExample();
 
     }
 
@@ -53,7 +53,7 @@ public class Main {
         System.out.println(java8Employee.getLastName());
 
         var java14Employee = new Java14RecordEmployee("ugur", "ciftci");
-        System.out.println(java14Employee.name());
+        System.out.println(java14Employee.lastName());
     }
 
     static void topicVariableJava8_10() {
